@@ -64,7 +64,7 @@ main {
     background-color: #0000;
     border: none;
     border-bottom: white 1px solid;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 2px;
     padding: 5px;
     color: whitesmoke;
@@ -90,7 +90,7 @@ main {
     background-color: #0000;
     border: none;
     border-bottom: black 1px solid;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 5px;
     margin-bottom: 2px;
     color: black;
@@ -106,4 +106,6 @@ main {
 
 }#back button:hover{
     opacity: 0.2;
-}   
+} h1{
+    margin-top: 30px;
+}

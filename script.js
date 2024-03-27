@@ -23,3 +23,9 @@ signUpLink.addEventListener('click', function(event) {
     event.preventDefault();
     rotateCard();
 });
+
+
+
+function voltar(){
+    window.location.href = "home.html";
+}

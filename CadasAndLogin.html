@@ -11,16 +11,17 @@
     <title>Check</title>
 </head>
 <body>
+    <header><img src="/img/iconArrow.png" class="arrow" onclick="voltar()"></header>
     <main>
         <div id="front">
             <h1>Faça o login</h1>
-            <form action="">
-                <input type="text" placeholder="Email">
+            <form action="connect.php" method="post">
+                <input type="text" placeholder="Email" name="email">
                 <br>
-                <input type="text" placeholder="Senha">
+                <input type="text" placeholder="Senha" name="senha">
                 <br>
                 <br>
-                <button>login</button>
+                <button type="submit">login</button>
             </form>
             <br>
             <a href="#">Esqueceu sua senha?</a>
@@ -30,15 +31,15 @@
         </div>
         <div id="back">
             <h1>Registre-se</h1>
-            <form action="">
-                <input type="text"  placeholder="Nome">
+            <form action="connect.php" method="post">
+                <input type="text"  placeholder="Nome" name="nome">
                 <br>
-                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Email" name="email">
                 <br>
-                <input type="text" placeholder="Senha">
+                <input type="text" placeholder="Senha" name="senha">
                 <br>
                 <br>
-                <button>Cadastrar</button>
+                <button type="submit">Cadastrar</button>
             </form>
             <br>
             <a href="#temcont">Já possui conta?</a>

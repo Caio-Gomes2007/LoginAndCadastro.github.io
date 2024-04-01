@@ -5,7 +5,7 @@
 
     require 'bancoConnect.php';
 
-    $sql = "INSERT INTO clientes (nome,emai,senha)
+    $sql = "INSERT INTO clientes (nome,email,senha)
             VALUES ('$name','$email','$senha')";
     
     // Usa o método exec() para executar a consulta

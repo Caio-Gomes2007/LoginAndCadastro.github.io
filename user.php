@@ -12,7 +12,7 @@ class User{
 		$this->password = $password; 
 	}
 	public function get_name(){
-		echo $this -> nome;
+    echo $this -> nome;
 	}
 	public function get_email(){
 		return $this ->email;
@@ -26,8 +26,11 @@ class User{
 			echo "registro feito";
 		}else {
 			echo "erro" . $sql . "<br>" .$conn->error;
-		}
-	}
+		} 
+  }
+  public StartCookie(){
+      setcookie('User',$this->nome,time() +(86400 * 30 ) , '/');
+  }
 };
 
 

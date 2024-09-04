@@ -1,4 +1,4 @@
-oi
+
 <?php
 include "connect.php";
 echo "teste1";
@@ -14,7 +14,7 @@ $password = $_POST["password"];
 
 $user = new User($nome,$email,$password);
 $user->cadastrar($conn);
-$user->get_name();
+$user->StartCookie();
 
 
 

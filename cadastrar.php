@@ -12,9 +12,8 @@ $password = $_POST["password"];
 
 
 
-$user = new User($nome,$email,$password);
+$user = new User($nome, $email, $password);
 $user->cadastrar($conn);
-$user->StartCookie();
 
 
 
